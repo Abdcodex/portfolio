@@ -170,7 +170,7 @@ a {
   margin: 0 0 20px;
   max-width: 850px;
   color: #e4f1ff;
-  font-size: clamp(2rem, 4vw, 3.7rem);
+  font-size: clamp(1.55rem, 3vw, 2.55rem);
   font-weight: 780;
   line-height: 1.08;
   letter-spacing: -0.045em;
@@ -201,20 +201,20 @@ a {
   margin: 0;
   max-width: 760px;
   color: var(--text);
-  font-size: clamp(3.6rem, 7.2vw, 6.35rem);
+  font-size: clamp(2.5rem, 5vw, 4.15rem);
   font-weight: 800;
-  line-height: 0.94;
-  letter-spacing: -0.065em;
+  line-height: 1.02;
+  letter-spacing: -0.05em;
   text-shadow: 0 12px 40px rgba(0, 0, 0, 0.2);
 }
 
 .hero-copy h2 {
-  margin: 30px 0 22px;
+  margin: 22px 0 18px;
   max-width: 830px;
   color: #cce0f3;
-  font-size: clamp(1.75rem, 3.7vw, 3.45rem);
-  line-height: 1.12;
-  letter-spacing: -0.045em;
+  font-size: clamp(1.3rem, 2.5vw, 2.15rem);
+  line-height: 1.2;
+  letter-spacing: -0.03em;
 }
 
 .hero-summary {
@@ -770,7 +770,7 @@ a {
   }
 
   .hero-copy h1 {
-    font-size: clamp(3.15rem, 15vw, 5rem);
+    font-size: clamp(2.25rem, 11vw, 3.4rem);
   }
 
   .hero .eyebrow {
