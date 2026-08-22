@@ -13,40 +13,28 @@ interface Highlight {
 export class AboutMeComponent {
   highlights: Highlight[] = [
     {
-      title: 'AI Infrastructure & ML Platforms',
-      description: 'Architected and scaled AI infrastructure, ML experimentation platforms, model training and evaluation frameworks, telemetry analytics systems, and intelligent automation solutions leveraging Generative AI, LLMs, RAG, and cloud-native technologies to improve engineering productivity, deployment confidence, and production reliability.'
+      title: 'Agentic AI & Inventory Automation',
+      description: 'Built an agentic inventory and replenishment workflow that monitors store and warehouse stock, evaluates shortage and overstock risk, recommends inter-store transfers, and creates replenishment requests through backend tools and APIs.'
     },
     {
-      title: 'Agentic AI & Developer Productivity',
-      description: 'Built AI-powered developer tools, agentic workflows, MCP-enabled tool orchestration, and intelligent decision-support platforms that accelerated code review, root-cause analysis, experiment investigation, ML evaluation, and software delivery.'
+      title: 'Multi-Agent Orchestration & Tool Calling',
+      description: 'Implemented specialized inventory-monitoring, planning, and action agents with shared workflow state, LLM/tool-calling steps, business-rule validation, confidence-based decisions, and human approval for sensitive actions.'
     },
     {
-      title: 'Full-Stack Platforms & Developer Experience',
-      description: 'Designed and delivered end-to-end applications spanning frontend dashboards, analytics portals, visualization systems, APIs, distributed backend services, and cloud-native infrastructure. Built engineer-facing telemetry dashboards, healthcare command center UI tiles, design-system analysis platforms, and real-time operational reporting solutions serving thousands of users and large-scale enterprise environments.'
+      title: 'Backend Services & API Engineering',
+      description: 'Designed Python/Django/Flask services and REST APIs for inventory, catalog, replenishment, and internal operations, with reusable service boundaries, validation, error handling, and maintainable application architecture.'
     },
     {
-      title: 'Infrastructure & Platform Engineering',
-      description: 'Designed and operated cloud-native infrastructure, internal developer platforms, CI/CD systems, Kubernetes environments, shared services, and automation frameworks across AWS, GCP, and Azure, enabling scalable, reliable, and efficient software delivery.'
+      title: 'Reliability, Guardrails & Auditability',
+      description: 'Applied retries, idempotency controls, transactional updates, persisted workflow state, audit logging, confidence checks, and human-in-the-loop guardrails to make autonomous workflows safe and traceable.'
     },
     {
-      title: 'Distributed Systems & Cloud Architecture',
-      description: 'Architected high-throughput distributed systems, microservices, and enterprise-scale cloud platforms supporting AI, machine learning, analytics, healthcare, financial, and other business-critical workloads.'
+      title: 'Cloud-Native Engineering & DevOps',
+      description: 'Containerized services with Docker and supported Kubernetes/AWS deployment workflows, environment configuration, health checks, CI/CD, testing, logging, and production troubleshooting.'
     },
     {
-      title: 'Experimentation, Observability & Reliability',
-      description: 'Developed large-scale experimentation platforms, A/B testing frameworks, performance canaries, traffic and cache shadowing systems, telemetry pipelines, anomaly-detection solutions, and operational tooling that improved deployment safety, regression detection, and system reliability.'
-    },
-    {
-      title: 'Data Platforms & Workflow Orchestration',
-      description: 'Built scalable ETL and telemetry-ingestion pipelines, real-time analytics platforms, workflow orchestration frameworks, and job-scheduling systems using BigQuery, Pub/Sub, SQL, Redis, and Cassandra.'
-    },
-    {
-      title: 'High-Ownership Engineering Leadership',
-      description: 'Led products and platforms from concept and architecture through implementation, deployment, adoption, and production operations across startup-style teams and large global organizations.'
-    },
-    {
-      title: 'Technical Strategy & Organizational Impact',
-      description: 'Defined technical roadmaps, influenced cross-organizational architectural decisions, established engineering standards, conducted design reviews, mentored engineers, and partnered with infrastructure, research, ML, product, and business teams to deliver measurable technical and business outcomes.'
+      title: 'Machine Learning & Applied AI',
+      description: 'Hands-on with PyTorch, Scikit-learn, TensorFlow, Hugging Face, computer vision, clustering, recommendation systems, model evaluation, and real-time ML application development through academic and professional projects.'
     }
   ];
 }

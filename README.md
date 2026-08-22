@@ -1,6 +1,6 @@
-# Mohd Sadique Portfolio
+# Mohammad Abdullah Portfolio
 
-Angular portfolio synchronized with the current resume. It includes the complete professional summary, leadership highlights, professional experience, technical skills, awards, education, contact links, and a downloadable DOCX resume.
+Angular portfolio synchronized with the current resume. It includes the professional summary, engineering highlights, professional experience, technical skills, academic projects, certifications, education, contact links, and a downloadable resume.
 
 ## Run locally
 

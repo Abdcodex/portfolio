@@ -1,19 +1,19 @@
 # Portfolio Resume Synchronization
 
-The portfolio has been rebuilt to reflect the complete supplied resume.
+The portfolio has been rebuilt to reflect Mohammad Abdullah's resume.
 
 ## Included
 
-- Updated Lead Software Engineer positioning and full professional summary
-- Career impact metrics, including 6,000+ canary hosts, 100K+ production hosts, 5× sensitivity improvement, 90% faster incident detection, and 70% fewer guideline-related errors
-- All nine key leadership and technical highlights
-- Full professional experience for Meta, Google, Microsoft, GE HealthCare, CME Group, Biba Apparels, and Aricent
-- Every responsibility and technology environment listed for each role
-- All 13 technical skill categories
-- All four awards
+- Software Engineer / Agentic AI Engineer positioning and full professional summary
+- Career and project metrics, including 90% occupancy accuracy, 15× faster processing, 95% facial recognition, 85%+ cluster consistency, 40% better discovery, and 8.7 CGPA
+- All six key engineering highlights
+- Full professional experience at Biba Apparels Pvt. Ltd.
+- Every responsibility and technology environment listed for the role
+- All eight technical skill categories
+- Both academic projects: IntelliMetro and Music Recommendation System
+- Both certifications
 - Both education entries
-- Phone, email, LinkedIn, and GitHub links
-- Downloadable resume under `src/assets/Mohd_Sadique_Resume.docx`
+- Phone, email, and downloadable resume under `src/assets/Mohammad_Abdullah_Resume.docx`
 - Responsive desktop and mobile design
 - Production build in `docs/` configured for the `/portfolio/` GitHub Pages path
 

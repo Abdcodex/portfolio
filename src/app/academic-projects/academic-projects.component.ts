@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
 
-interface Award {
+interface Project {
   name: string;
-  year: string;
-  description: string;
+  bullets: { title: string; text: string }[];
+  environment: string;
 }
 
 @Component({
@@ -12,26 +12,38 @@ interface Award {
   styleUrls: ['./academic-projects.component.scss']
 })
 export class AcademicProjectsComponent {
-  awards: Award[] = [
+  projects: Project[] = [
     {
-      name: 'Spot Bonus',
-      year: '2023',
-      description: 'Recognized for contributions to building the carbon compiler for xUIKit and ensuring long-term compatibility for components at Google.'
+      name: 'IntelliMetro — Smart Monitoring System',
+      bullets: [
+        {
+          title: 'Real-Time Occupancy Detection',
+          text: 'Fine-tuned YOLOv3 on public and custom datasets to achieve 90% accuracy in metro occupancy estimation while improving processing speed 15× by analyzing every 15th frame.'
+        },
+        {
+          title: 'Facial Recognition & Threat Detection',
+          text: 'Integrated FaceNet facial recognition with 95% accuracy to identify persons of interest and automate real-time security alerts.'
+        },
+        {
+          title: 'Monitoring Dashboard',
+          text: 'Built a Streamlit dashboard for real-time tracking of coach occupancy up to 300 passengers per coach and automated alerts for overcrowding and security flags.'
+        }
+      ],
+      environment: 'Python, PyTorch, YOLOv3, FaceNet, Computer Vision, Streamlit, OpenCV-style video processing'
     },
     {
-      name: 'Impact Award',
-      year: '2021',
-      description: 'Acknowledged by Susan Brauns, GE HealthCare Director, for focused commitment to delivering Duke Release 1.x at GE HealthCare.'
-    },
-    {
-      name: 'Bravo Award',
-      year: '2020',
-      description: 'Commended by Jeff Terry, CEO GE Clinical Command, for versatile development work characterized by high-quality output, effective collaboration with business teams, and unwavering commitment to the cross-functional team at GE HealthCare.'
-    },
-    {
-      name: 'SNAP Award',
-      year: '2013',
-      description: 'Team Excellence Award for outstanding demonstration of ownership, global team coordination, and extraordinary technical abilities in successfully executing feature development and support activities for TEKELEC PIC 7.x releases at Aricent Technology.'
+      name: 'Music Recommendation System',
+      bullets: [
+        {
+          title: 'Recommendation Modeling',
+          text: 'Implemented K-Means clustering over audio features, achieving 85%+ cluster consistency and improving recommendation relevance.'
+        },
+        {
+          title: 'Personalized Recommendation Pipeline',
+          text: 'Designed a recommendation workflow that selected songs from top-matching clusters and improved discovery efficiency by 40% compared with random selection.'
+        }
+      ],
+      environment: 'Python, Scikit-learn, K-Means, Pandas, NumPy, Machine Learning'
     }
   ];
 }

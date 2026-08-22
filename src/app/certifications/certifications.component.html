@@ -1,1 +1,14 @@
-<p>certifications works!</p>
+<div class="section-wrap section-block">
+  <div class="section-heading compact-heading">
+    <p class="eyebrow">Certifications</p>
+    <h2>Cloud fundamentals and applied machine learning coursework.</h2>
+  </div>
+
+  <div class="certs-grid">
+    <article class="education-card" *ngFor="let certification of certifications">
+      <span class="education-date">{{ certification.date }}</span>
+      <h3>{{ certification.name }}</h3>
+      <p>{{ certification.detail }}</p>
+    </article>
+  </div>
+</div>

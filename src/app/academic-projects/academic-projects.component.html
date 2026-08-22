@@ -1,14 +1,22 @@
 <div class="section-wrap section-block">
   <div class="section-heading compact-heading">
-    <p class="eyebrow">Recognition</p>
-    <h2>Awards for technical impact, ownership, and execution.</h2>
+    <p class="eyebrow">Academic projects</p>
+    <h2>Applied computer vision, clustering, and real-time ML systems.</h2>
   </div>
 
-  <div class="awards-grid">
-    <article class="award-card" *ngFor="let award of awards">
-      <span class="award-year">{{ award.year }}</span>
-      <h3>{{ award.name }}</h3>
-      <p>{{ award.description }}</p>
+  <div class="projects-grid">
+    <article class="award-card project-card" *ngFor="let project of projects">
+      <h3>{{ project.name }}</h3>
+      <ul class="experience-bullets">
+        <li *ngFor="let bullet of project.bullets">
+          <strong>{{ bullet.title }}:</strong>
+          {{ bullet.text }}
+        </li>
+      </ul>
+      <details class="environment">
+        <summary>Technology environment</summary>
+        <p>{{ project.environment }}</p>
+      </details>
     </article>
   </div>
 </div>
