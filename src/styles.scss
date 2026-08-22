@@ -378,7 +378,8 @@ a {
   grid-template-columns: repeat(6, 1fr);
   gap: 1px;
   overflow: hidden;
-  margin-bottom: 52px;
+  margin-top: 48px;
+  margin-bottom: 0;
   border: 1px solid var(--border);
   border-radius: var(--radius);
   background: var(--border);
