@@ -7,7 +7,7 @@ The portfolio has been rebuilt to reflect Mohammad Abdullah's resume.
 - Software Engineer / Agentic AI Engineer positioning and full professional summary
 - Career and project metrics, including 90% occupancy accuracy, 15× faster processing, 95% facial recognition, 85%+ cluster consistency, 40% better discovery, and 8.7 CGPA
 - All six key engineering highlights
-- Full professional experience at Biba Apparels Pvt. Ltd.
+- Full professional experience at BIBA APPARELS PVT. LTD.
 - Every responsibility and technology environment listed for the role
 - All eight technical skill categories
 - Both academic projects: IntelliMetro and Music Recommendation System

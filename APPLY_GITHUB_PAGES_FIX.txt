@@ -8,7 +8,7 @@ pages-build-deployment workflow. Selecting GitHub Actions stops the branch-based
 automatic workflow and avoids competing deployments.
 
 Optional GitHub CLI command (run after `gh auth login`):
-  gh api --method PUT repos/msadique/portfolio/pages -f build_type=workflow
+  gh api --method PUT repos/Abdcodex/portfolio/pages -f build_type=workflow
 
 Then commit and push:
   git add .github/workflows/deploy-pages.yml

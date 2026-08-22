@@ -1,9 +1,0 @@
-Portfolio hero typography patch
-
-Changes:
-- Enlarges the "Lead Software Engineer · AI Infrastructure · Agentic AI" label.
-- Reduces the Mohd Sadique name size.
-- Forces high-contrast name color and stronger weight.
-- Adds responsive mobile typography.
-
-After extracting, rebuild Angular so the docs folder is regenerated.
