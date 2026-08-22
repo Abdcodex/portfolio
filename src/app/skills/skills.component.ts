@@ -12,7 +12,7 @@ interface SkillGroup {
 })
 export class SkillsComponent {
   skillGroups: SkillGroup[] = [
-    { category: 'Programming Languages', skills: ['Python', 'SQL', 'C/C++', 'Java'] },
+    { category: 'Programming Languages', skills: ['Python', 'SQL', 'Java'] },
     { category: 'Agentic & Generative AI', skills: ['Agentic AI', 'AI Agents', 'Multi-Agent Workflows', 'LLM Integration', 'Tool Calling', 'MCP', 'Prompt Engineering', 'Guardrails'] },
     { category: 'Backend Engineering', skills: ['Django', 'Flask', 'REST APIs', 'Service Design', 'Background Jobs', 'Asynchronous Workflows', 'Validation', 'Error Handling'] },
     { category: 'Machine Learning & AI', skills: ['PyTorch', 'TensorFlow', 'Scikit-learn', 'Hugging Face', 'NLP', 'Computer Vision', 'Model Evaluation', 'K-Means'] },
