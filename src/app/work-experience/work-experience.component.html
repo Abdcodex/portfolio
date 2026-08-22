@@ -1,0 +1,38 @@
+<div class="section-wrap section-block">
+  <div class="section-heading compact-heading">
+    <p class="eyebrow">Professional experience</p>
+    <h2>Enterprise-scale systems across AI, search, cloud, healthcare, finance, and telecom.</h2>
+  </div>
+
+  <div class="experience-list">
+    <article class="experience-card" *ngFor="let experience of experiences">
+      <div class="experience-meta">
+        <span class="experience-date">{{ experience.dates }}</span>
+        <span class="experience-location" *ngIf="experience.location">{{ experience.location }}</span>
+      </div>
+
+      <div class="experience-body">
+        <header class="experience-header">
+          <div>
+            <h3>{{ experience.company }}</h3>
+            <p class="experience-role">{{ experience.role }}</p>
+          </div>
+        </header>
+
+        <p class="experience-project"><strong>Project:</strong> {{ experience.project }}</p>
+
+        <ul class="experience-bullets">
+          <li *ngFor="let bullet of experience.bullets">
+            <strong *ngIf="bullet.title">{{ bullet.title }}:</strong>
+            {{ bullet.text }}
+          </li>
+        </ul>
+
+        <details class="environment">
+          <summary>Technology environment</summary>
+          <p>{{ experience.environment }}</p>
+        </details>
+      </div>
+    </article>
+  </div>
+</div>

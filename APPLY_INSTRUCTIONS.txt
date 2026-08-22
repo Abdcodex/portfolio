@@ -1,0 +1,17 @@
+Apply from the root of the portfolio Git repository in PowerShell:
+
+Expand-Archive `
+  "$env:USERPROFILE\Downloads\portfolio_github_pages_patch.zip" `
+  -DestinationPath . `
+  -Force
+
+Then remove or disable any older GitHub Pages workflow so only deploy-pages.yml deploys Pages.
+
+Commit and push:
+
+git add .github/workflows/deploy-pages.yml
+git commit -m "Fix GitHub Pages deployment"
+git push origin main
+
+In GitHub, confirm:
+Repository > Settings > Pages > Build and deployment > Source = GitHub Actions

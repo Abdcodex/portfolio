@@ -1,0 +1,21 @@
+<div class="section-wrap section-block">
+  <div class="section-heading">
+    <p class="eyebrow">Leadership profile</p>
+    <h2>Building platforms from concept to production.</h2>
+    <p>
+      Deep expertise in distributed architecture, large-scale data processing, MLOps, cloud infrastructure,
+      Retrieval-Augmented Generation, LLM applications, and AI tool orchestration, with hands-on experience
+      in Python, Java, React, Kubernetes, AWS, Azure, GCP, SQL, Cassandra, Redis, and modern data technologies.
+      Recognized for defining technical strategy, influencing cross-organizational architecture and engineering
+      standards, mentoring engineers, and delivering high-impact platforms at enterprise scale.
+    </p>
+  </div>
+
+  <div class="highlight-grid">
+    <article class="highlight-card" *ngFor="let highlight of highlights; let i = index">
+      <span class="card-index">{{ (i + 1).toString().padStart(2, '0') }}</span>
+      <h3>{{ highlight.title }}</h3>
+      <p>{{ highlight.description }}</p>
+    </article>
+  </div>
+</div>

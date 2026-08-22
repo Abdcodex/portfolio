@@ -1,0 +1,16 @@
+This patch replaces .github/workflows/deploy-pages.yml.
+
+IMPORTANT GitHub setting:
+Repository -> Settings -> Pages -> Build and deployment -> Source: GitHub Actions
+
+The repository currently shows both a custom Pages workflow and the automatic
+pages-build-deployment workflow. Selecting GitHub Actions stops the branch-based
+automatic workflow and avoids competing deployments.
+
+Optional GitHub CLI command (run after `gh auth login`):
+  gh api --method PUT repos/msadique/portfolio/pages -f build_type=workflow
+
+Then commit and push:
+  git add .github/workflows/deploy-pages.yml
+  git commit -m "Update GitHub Pages actions for Node 24"
+  git push origin main

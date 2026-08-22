@@ -1,0 +1,14 @@
+<div class="section-wrap section-block">
+  <div class="section-heading compact-heading">
+    <p class="eyebrow">Recognition</p>
+    <h2>Awards for technical impact, ownership, and execution.</h2>
+  </div>
+
+  <div class="awards-grid">
+    <article class="award-card" *ngFor="let award of awards">
+      <span class="award-year">{{ award.year }}</span>
+      <h3>{{ award.name }}</h3>
+      <p>{{ award.description }}</p>
+    </article>
+  </div>
+</div>

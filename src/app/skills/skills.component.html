@@ -1,0 +1,15 @@
+<div class="section-wrap section-block">
+  <div class="section-heading compact-heading">
+    <p class="eyebrow">Technical toolkit</p>
+    <h2>Broad platform depth with hands-on engineering expertise.</h2>
+  </div>
+
+  <div class="skills-grid">
+    <article class="skill-card" *ngFor="let group of skillGroups">
+      <h3>{{ group.category }}</h3>
+      <div class="skill-tags">
+        <span *ngFor="let skill of group.skills">{{ skill }}</span>
+      </div>
+    </article>
+  </div>
+</div>

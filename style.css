@@ -1,0 +1,52 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.header p {
+    color: #666;
+    font-style: italic;
+}
+
+h2 {
+    border-bottom: 2px solid #007bff;
+    color: #007bff;
+    padding-bottom: 5px;
+}
+
+.summary, .key-highlights, .technical-proficiencies {
+    margin-bottom: 20px;
+}
+
+.summary p, .key-highlights ul, .technical-proficiencies .skills div {
+    margin-top: 10px;
+}
+
+.key-highlights ul, .technical-proficiencies .skills {
+    list-style-type: none;
+    padding: 0;
+}
+
+.technical-proficiencies .skills div {
+    margin-bottom: 10px;
+}
+
+.technical-proficiencies h3 {
+    margin-top: 0;
+}
