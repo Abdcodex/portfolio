@@ -23,7 +23,7 @@ interface Experience {
 export class WorkExperienceComponent {
   experiences: Experience[] = [
     {
-      company: 'BIBA APPARELS PVT. LTD.',
+      company: 'BIBA Fashion Ltd.',
       dates: 'Jun 2024 – Present',
       role: 'Software Engineer | Backend & Agentic AI',
       project: 'Agentic Inventory & Replenishment Platform',
